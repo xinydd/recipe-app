@@ -1,18 +1,24 @@
-# recipe-app
-# recipe
+# Recipe App
 
-A new Flutter project.
+A Flutter recipe application powered by Firebase.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project requires a Firebase project with **Authentication** and **Firestore** enabled. The Firebase configuration file (`lib/firebase_options.dart`) is **not** included in the repository for security reasons – you must generate it yourself using your own Firebase project.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (version 3.0 or higher)
+- [Firebase CLI](https://firebase.google.com/docs/cli) (installed and logged in)
+- [FlutterFire CLI](https://firebase.flutter.dev/docs/cli) (install via `dart pub global activate flutterfire_cli`)
+
+---
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/xinydd/recipe-app.git
+cd recipe-app
